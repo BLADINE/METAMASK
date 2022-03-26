@@ -1,0 +1,7 @@
+De mon point vue, l'application Metamask manque un peu css dans le header. J'ai 
+rajouté une couleur de fond pour bien séparer la partie fixe. 
+Ensuite, je n'ai pas aimé leur façon de mettre l'historique. j'ai mis un boutton
+à la place pour consulter la partie historique. J'ai aussi rajouté un pied de page
+pour aider l'utilisateur dans le cas où il aimerait jeter un coup d'oeil les 
+différents problèmes lié à l'application.
+Enfin, j'ai changé la couleur des buttons et agrandi la texte du texte.

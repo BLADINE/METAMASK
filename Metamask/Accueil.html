@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="header">
+        <img src="logo-icon.png" class="logo-icon">
+        <div class="text-app">Metamask</div>
+        <img src="menu-icon.png" id="menu-icon">
+    </header>
+    <div id="menu-list">
+        <a href="">Log out</a>
+        <a href="">Create account</a>
+        <a href="">Add account</a>
+        <a href="">Connect wallet</a>
+        <a href="">settings</a>
+    </div>
+    <div class="box-list">
+        <div class="text-account">Account</div>
+        <div class="btns">
+            <button class="btn" onclick="displayBlock(this)">Buy</button>
+            <button class="btn" onclick="displayBlock(this)">Send</button>
+            <button class="btn" onclick="displayBlock(this)">Swap</button>
+            <button class="btn" onclick="displayBlock(this)">Operation</button>
+        </div>
+        <div id="choice-click">
+            <form method="POST" id="buy" onsubmit="buyEtherium(event)">
+                <label for="amount">
+                    <div>USD</div>
+                    <input type="text" name="amount" pattern="(\d+\.?\d{1,2}?|[1-9])" 
+                    onchange="" required>
+                </label>
+                <div>ETH</div>
+                <input type="submit" value="Validate" class="purchase">
+            </form>
+            <div id="send">Send</div>
+            <div id="swap">Swap</div>
+            <div id="operation"></div>
+        </div>
+    </div>
+    <script src="accueil.js" type="text/javascript"></script>
+    <footer>
+        <a href="">Contact us</a>
+        <a href="">Instructions</a>
+        <a href="">About</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,183 @@
+header {
+  flex: 1;
+  height: 100px;
+  margin: -8px -8px 0 -8px;
+  background: #c0ac9d;
+}
+.logo-icon {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  left: 32px;
+  top: 17px;
+}
+.text-app {
+  position: absolute;
+  width: 170px;
+  height: 47px;
+  left: 112px;
+  top: 24px;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+#menu-icon {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  right: 35px;
+  top: 17px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  background: transparent;
+}
+#menu-list {
+  width: 163px;
+  height: 296px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 16px;
+  top: 83px;
+}
+#menu-list a {
+  width: 163px;
+  height: 60px;
+  text-decoration: none;
+  color: black;
+  background: rgba(245, 132, 31, 0.3);
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  padding-left: 10px;
+}
+#menu-list a:hover {
+  background: rgba(245, 132, 31, 0.75);
+}
+.box-list {
+  width: 60%;
+  min-height: 546px;
+  margin: 62px auto 0 auto;
+  background: linear-gradient(180deg, #941a1a 0%, rgba(8, 99, 83, 0.5) 100%);
+  border-radius: 30.6488px;
+  padding: 0 17px;
+}
+.box-list .text-account {
+  font-size: 25px;
+  font-weight: 400;
+  min-width: 100px;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.box-list .btns {
+  width: 324px;
+  height: 45px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 169px;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 10px;
+  height: 45px;
+  border: none;
+  background: #40cbc3;
+  font-size: 18px;
+  font-weight: 700;
+}
+#choice-click {
+  margin: 57px 0 0 38px;
+  font-size: 23px;
+}
+#buy {
+  display: none;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: baseline;
+  width: 268px;
+  height: 108px;
+}
+#buy label {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+#buy input.purchase {
+  width: 70px;
+  height: 41px;
+  align-self: center;
+}
+label div {
+  display: flex;
+  font-size: 32px;
+  font-weight: 700;
+  align-self: center;
+}
+label input {
+  width: 182px;
+  height: 30px;
+  text-align: right;
+  border-radius: 10px;
+  border: none;
+}
+label ~ div {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+#send {
+  display: none;
+}
+#swap {
+  display: none;
+}
+#operation {
+  display: none;
+  min-height: 100px;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+#operation div {
+  min-height: 100;
+  width: auto;
+}
+
+footer {
+  flex: 1;
+  height: 100px;
+  margin: 20px -8px -8px -8px;
+
+  background: #c0ac9d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+}
+footer a {
+  font-size: 18px;
+  font-weight: 200;
+  display: block;
+  text-decoration: none;
+}
